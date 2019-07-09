@@ -13,10 +13,13 @@ body {
 
 div h1 {
 	font-family: 'Ceviche One', cursive;
-	font-size: 200px;
+	font-size: 150px;
 	text-align: center;
 	padding-top: 40px;
-	padding-bottom: 40px;
+}
+
+div p {
+	text-align: center;
 }
 
 div.textfield {
