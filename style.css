@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+body {
+	background-color: bisque;
+	margin: 20px;
+}
+
+div h1 {
+	font-family: 'Ceviche One', cursive;
+	font-size: 200px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+div.textfield {
+	position: relative;
+}
+
+p {
+	margin: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+
+input[type=text] {
+	width: 40%;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus {
+	border-color: dodgerblue;
+	box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.button svg {
+	height: 55px;
+	width: 150px;
+	fill: none;
+	stroke-width: 5;
+}
+
+.button svg .o1 {
+	stroke: rgba(255, 179, 65, 0.7);
+	fill: #ffa114;
+	transition: all 1s ease-in-out;
+}
+
+.button svg .o2 {
+	stroke: white;
+	stroke-dasharray: 20 420;
+	stroke-dashoffset: 20;
+	transition: all 1s ease-in-out;
+}
+
+.button span {
+	position: absolute;
+	margin: auto 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.button:hover .o1 {
+	fill: rgba(204, 129, 16, 0.3);
+}
+
+.button:hover .o2 {
+	stroke-dashoffset: -420;
+}
