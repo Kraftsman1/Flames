@@ -88,3 +88,16 @@ input[type=text]:focus {
 .button:hover .o2 {
 	stroke-dashoffset: -420;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	body{
+		width: auto;
+		height: auto;
+	}
+	div h1 {
+		font-size: 60px;
+		text-align: center;
+		padding-top: 40px;
+		width: auto;
+	}
+}
